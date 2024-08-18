@@ -28,9 +28,9 @@
     <nav>
     <section class="flex justify-around pt-10 ">
       <div>
-        <img class="h-8" src="icons/logo.png" alt="">
+        <img class="h-8 " src="icons/logo.png" alt="">
       </div>
-      <ul class="flex gap-12 ">
+      <ul class="hidden lg:flex gap-12  ">
         <li><a href="">Home</a></li>
         <li><a href="">product</a></li>
         <li><a href=""> About us</a></li>
@@ -189,8 +189,8 @@
         </div>
       </div>
     </section>
-    <section class="flex justify-between ">
-      <div class="p-5 space-y-4 drop-shadow-lg w-2/5 h-80 ">
+    <section class="flex flex-col justify-between lg:flex-row">
+      <div class="p-5 space-y-4 drop-shadow-lg lg:w-2/5 order-2 lg:order-1  ">
         <div class="bg-[#fffefe] rounded-2xl flex p-5 gap-3  ">
           <img class="h-20 w-[78px]" src="icons/house.png" alt="">
          <div >
@@ -216,8 +216,8 @@
           </div>
         </div>
       </div>
-      <div>
-        <img class="w-[600px] pt-8  " src="images/shopping.png" alt="">
+      <div class="order-1 lg:order-2">
+        <img class="w-[600px] pt-8" src="images/shopping.png" alt="">
       </div>
     </section>
   </main>
